@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Tiempo"
+        android:title="Tiempo"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/Ins"
+        android:title="Instruciones" />
+    <item
+        android:id="@+id/Dif"
+        android:title="Dificultad" />
+    <item
+        android:id="@+id/Se"
+        android:title="Selecciona Bomba" />
+    <item
+        android:id="@+id/btnReinciar"
+        android:title="Reinciar Juego" />
+    <item
+        android:id="@+id/minas"
+        android:title="Minas restantes:"
+        app:showAsAction="always" />
+</menu>
