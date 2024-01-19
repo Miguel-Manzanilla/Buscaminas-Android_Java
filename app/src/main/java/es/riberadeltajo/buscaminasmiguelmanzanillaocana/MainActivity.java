@@ -172,6 +172,7 @@ public class MainActivity extends AppCompatActivity {
                             return true;
                         }
                     });
+                    System.out.println("HOLA");
                     contColor++;
                 } else {
                     Button b = new Button(this);
