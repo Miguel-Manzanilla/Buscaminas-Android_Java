@@ -1,5 +1,6 @@
 package es.riberadeltajo.buscaminasmiguelmanzanillaocana;
 
+import android.graphics.Color;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.CountDownTimer;
@@ -207,6 +208,7 @@ public class MainActivity extends AppCompatActivity {
                             } else {
                                 b.setText(view.getId() + "");
                                 b.setBackgroundResource(R.drawable.bomba_numero);
+                                b.setTextColor(Color.BLACK);
                             }
 
                         }
